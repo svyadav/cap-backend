@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const passport = require("passport");
 const cors = require("cors");
-const cookieSession = require("cookie-Session");
+const cookieSession = require("cookie-session");
 const connectToMongo = require('./database/dbConnect')
 require("./passport/passport");
 
